@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <ListPreference
+        android:key="@string/pref_key_server"
+        android:title="@string/pref_server"
+        android:summary="@string/pref_server"
+        android:dialogTitle="@string/pref_server"
+        android:entries="@array/pref_server_keys"
+        android:entryValues="@array/pref_server_values"
+        android:defaultValue="@string/pref_default_server" />
+   
+   <CheckBoxPreference
+            android:key="pref_key_show_cache"
+            android:summary="@string/pref_show_cache"
+            android:title="@string/pref_show_cache"
+            android:defaultValue="true" />
+</PreferenceScreen>

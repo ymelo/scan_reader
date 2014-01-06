@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:readit="http://schemas.android.com/apk/res-auto"
+    >
+<item android:id="@+id/menu_action_search"
+          
+          android:icon="@drawable/ic_action_search"
+          readit:showAsAction="always"
+          readit:actionViewClass="android.support.v7.widget.SearchView" 
+          android:title="@string/hello_world"/>
+   
+</menu>

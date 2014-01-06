@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_server_keys">
+        <item name="1">Home (dev only)</item>
+        <item name="2">Remote server (dev+tests)</item>
+    </string-array>
+    <string-array name="pref_server_values">
+        <item name="1">http://192.168.0.64/readit/licensefree</item>
+        <item name="2">http://xxx.xxx.xxx.xxx/readit/licensefree</item>
+    </string-array>
+     <string-array name="drawer_list">
+         <item>Raspberry</item>
+         <item>Local</item>
+     </string-array>
+</resources>

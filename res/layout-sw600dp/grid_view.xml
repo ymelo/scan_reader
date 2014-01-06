@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:id="@+id/coverview"
+    
+>
+<GridView  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:id="@+id/gridview"
+    android:padding="5dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="5dp"
+    android:horizontalSpacing="5dp"
+    android:stretchMode="columnWidth"
+    android:columnWidth="190dip"
+    android:gravity="center"
+    android:background="#DEDEDE"
+    
+/>
+<include layout="@layout/cache_stats" />
+</FrameLayout>

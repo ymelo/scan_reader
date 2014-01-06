@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">ReadIt</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Local</string>
+    <string name="title_section1">Raspberry</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Dev Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="pref_server">server</string>
+    <string name="pref_show_cache">Show cache stats?</string>
+    <string name="pref_default_server">http://xxx.xxx.xxx.xxx/readit/licensefree</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="empty"></string>
+    <string name="err_connectivity">An error occurred, please check your connectivity</string>
+    <string name="start_dialog">This application is still under development.\nThis app is not supposed
+	    to be used as a daily app. The main purpose is just for the developer to train.
+	    The code will be released once the app has reached a stable stage.\n</string>
+    <string name="pref_key_server">pref_key_server</string>
+	<string name="pref_key_show_cache">pref_key_show_cache</string>
+</resources>
